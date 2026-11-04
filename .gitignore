@@ -1,0 +1,103 @@
+# Prerequisites / Compiled Objects
+*.o
+*.obj
+*.ko
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Executables & Project Binaries
+users_api
+test_json
+test_database
+test_auth
+*.out
+*.exe
+*.app
+*.hex
+*.elf
+*.bin
+
+# Build Directories & Temporary Output
+build/
+bin/
+obj/
+out/
+dist/
+cmake-build-*/
+
+# Debug Symbols & Dumps
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.gch
+*.pch
+core
+core.*
+vgcore.*
+
+# Test & Coverage Artifacts
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+
+# Databases (SQLite)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+cweb.db
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+*.code-workspace
+
+# JetBrains / CLion
+.idea/
+
+# Vim / Emacs swap & backup files
+*~
+*.swp
+*.swo
+*.swn
+.#*
+\#*\#
+
+# Operating System Files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+.fuse_hidden*
+.directory
+
+# Logs
+*.log
